@@ -149,3 +149,5 @@ https://IPADRESS:8443
 
 DONE!!
 
+== TO DO
+license the BIG-IP, set a testing for BIG-IP. This terraform will just deploy it, for now. 
