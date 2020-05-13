@@ -136,10 +136,12 @@ ssh admin@bigipublicipaddress
 
 
 == Set Password ADMIN
-Default will use F5 shell tmsh
+Default will use F5 shell tmsh it will prompt you for a new password. Save and exit
 
 ----
 modify auth password admin
+
+save sys config
 ----
 
 Access the Web. Keep in mind that single IP will use port 8443. Others will use 443. (still https)
